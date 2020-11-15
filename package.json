@@ -3,10 +3,6 @@
   "version": "2.1.5",
   "description": "Modération et autres",
   "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "./app.js"
-  },
   "author": "Jacques#1714",
   "license": "MIT",
   "dependencies": {
