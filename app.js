@@ -4,6 +4,7 @@ const settings = require('./settings.json');
 const chalk = require('chalk');
 const fs = require('fs');
 const moment = require('moment');
+const token = process.env.token
 require('./util/eventLoader')(client);
 
 const log = message => {
@@ -62,4 +63,4 @@ var regToken = /[\w\d]{24}\.[\w\d]{6}\.[\w\d-_]{27}/g;
 // });
 
 
-client.login(settings.token);
+client.login(token);
